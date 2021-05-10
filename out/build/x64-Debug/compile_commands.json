@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.299\\bin\\Hostx64\\x64\\cl.exe  /nologo -Dcmocka_EXPORTS -I_deps\\cmocka-build\\src -I_deps\\cmocka-src\\src -I_deps\\cmocka-build -I_deps\\cmocka-src\\include /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 \"/D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1\" \"/D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT=1\" \"/D _CRT_NONSTDC_NO_WARNINGS=1\" \"/D _CRT_SECURE_NO_WARNINGS=1\" -DHAVE_CONFIG_H /Fo_deps\\cmocka-build\\src\\CMakeFiles\\cmocka.dir\\cmocka.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Jonatan\\Documents\\skola\\Exjobb\\cmocka_git\\cmocka\\out\\build\\x64-Debug\\_deps\\cmocka-src\\src\\cmocka.c",
+  "file": "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-src/src/cmocka.c"
+},
+{
+  "directory": "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1428~1.299\\bin\\Hostx64\\x64\\cl.exe  /nologo -I_deps\\cmocka-build\\src -I_deps\\cmocka-src\\src -I_deps\\cmocka-build -I_deps\\cmocka-src\\include /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 \"/D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1\" \"/D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT=1\" \"/D _CRT_NONSTDC_NO_WARNINGS=1\" \"/D _CRT_SECURE_NO_WARNINGS=1\" -DHAVE_CONFIG_H /Fo_deps\\cmocka-build\\src\\CMakeFiles\\cmocka-static.dir\\cmocka.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Jonatan\\Documents\\skola\\Exjobb\\cmocka_git\\cmocka\\out\\build\\x64-Debug\\_deps\\cmocka-src\\src\\cmocka.c",
+  "file": "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-src/src/cmocka.c"
+}
+]

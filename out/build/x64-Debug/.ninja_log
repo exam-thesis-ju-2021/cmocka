@@ -1,0 +1,19 @@
+# ninja log v5
+11	599	6423381038760394	CMakeFiles/lib.dir/src/peripherals.c.obj	80466830d0a8a215
+1	629	6423381038890394	CMakeFiles/lib.dir/src/hardware.c.obj	b9a897c07b294659
+8	630	6423381038850393	CMakeFiles/lib.dir/src/peripherals/divide_by_half.c.obj	7114465b4ab42d77
+6	620	6423381038890394	CMakeFiles/lib.dir/src/module_a.c.obj	4a9985d4d8734846
+15	623	6423381038890394	CMakeFiles/lib.dir/src/peripheral.c.obj	968ef4bc73170bc8
+17	626	6423381038860389	CMakeFiles/lib.dir/src/peripherals/power_of_two.c.obj	12261fcc9c7a0728
+13	629	6423381038840395	CMakeFiles/lib.dir/src/peripherals/multiply_by_two.c.obj	2d89b4be83f3b58
+21	633	6423381038840395	CMakeFiles/lib.dir/src/peripherals/square_root.c.obj	5e1bd7870b6b6914
+1043	1389	6423381046570402	_deps/cmocka-build/src/cmocka.dll	867d8c8bb161a25a
+634	753	6423381040100388	lib.lib	741ad4af60085bb4
+1043	1389	6423381046570402	_deps/cmocka-build/src/cmocka.lib	867d8c8bb161a25a
+4	70	6423545873529830	CMakeFiles/CMockaExample.dir/tests.c.obj	d61259514665977c
+621	1040	6423381043240383	_deps/cmocka-build/src/CMakeFiles/cmocka-static.dir/cmocka.c.obj	32287982aef0f92a
+624	1043	6423381043240383	_deps/cmocka-build/src/CMakeFiles/cmocka.dir/cmocka.c.obj	62b667da3b8ab30b
+1040	1073	6423381043540391	_deps/cmocka-build/src/cmocka-static.lib	d0800a807aa96346
+71	191	6423545874549830	CMockaExample.exe	41641cc31cbe7381
+1	70	6423591124633716	CMakeFiles/CMockaExample.dir/tests.c.obj	d61259514665977c
+71	223	6423591125953694	CMockaExample.exe	554479840fb75cd2

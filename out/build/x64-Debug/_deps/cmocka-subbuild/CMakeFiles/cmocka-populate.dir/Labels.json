@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/CMakeFiles/cmocka-populate"
+		},
+		{
+			"file" : "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/CMakeFiles/cmocka-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/CMakeFiles/cmocka-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/cmocka-populate-prefix/src/cmocka-populate-stamp/cmocka-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/cmocka-populate-prefix/src/cmocka-populate-stamp/cmocka-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/cmocka-populate-prefix/src/cmocka-populate-stamp/cmocka-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/cmocka-populate-prefix/src/cmocka-populate-stamp/cmocka-populate-update.rule"
+		},
+		{
+			"file" : "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/cmocka-populate-prefix/src/cmocka-populate-stamp/cmocka-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/cmocka-populate-prefix/src/cmocka-populate-stamp/cmocka-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/cmocka-populate-prefix/src/cmocka-populate-stamp/cmocka-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/cmocka-populate-prefix/src/cmocka-populate-stamp/cmocka-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cmocka-populate"
+		],
+		"name" : "cmocka-populate"
+	}
+}

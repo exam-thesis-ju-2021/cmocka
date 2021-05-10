@@ -1,0 +1,5 @@
+Name: cmocka
+Description: The cmocka unit testing library
+Version: 1.1.5
+Libs: -LC:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/install/x64-Debug/lib -lcmocka
+Cflags: -IC:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/install/x64-Debug/include

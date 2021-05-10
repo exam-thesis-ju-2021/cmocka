@@ -23,8 +23,6 @@ project(CMockaExample VERSION 1.0 LANGUAGES C)
 
 include(cmake/FetchCMocka.cmake)
 
-
-add_library(testing file.c)
 add_library(lib src/hardware.c
 			src/module_a.c
 			src/peripheral.c
@@ -36,7 +34,7 @@ add_library(lib src/hardware.c
 
 add_executable(CMockaExample "tests.c")
 target_compile_features(CMockaExample PRIVATE c_std_99)
-target_link_libraries(CMockaExample PRIVATE cmocka-static testing lib)
+target_link_libraries(CMockaExample PRIVATE cmocka-static lib)
 
 enable_testing()
 add_test(NAME CMockaExample COMMAND CMockaExample)

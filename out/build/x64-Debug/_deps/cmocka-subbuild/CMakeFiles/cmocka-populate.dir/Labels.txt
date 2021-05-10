@@ -1,0 +1,14 @@
+# Target labels
+ cmocka-populate
+# Source files and their labels
+C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/CMakeFiles/cmocka-populate
+C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/CMakeFiles/cmocka-populate.rule
+C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/CMakeFiles/cmocka-populate-complete.rule
+C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/cmocka-populate-prefix/src/cmocka-populate-stamp/cmocka-populate-install.rule
+C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/cmocka-populate-prefix/src/cmocka-populate-stamp/cmocka-populate-mkdir.rule
+C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/cmocka-populate-prefix/src/cmocka-populate-stamp/cmocka-populate-download.rule
+C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/cmocka-populate-prefix/src/cmocka-populate-stamp/cmocka-populate-update.rule
+C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/cmocka-populate-prefix/src/cmocka-populate-stamp/cmocka-populate-patch.rule
+C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/cmocka-populate-prefix/src/cmocka-populate-stamp/cmocka-populate-configure.rule
+C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/cmocka-populate-prefix/src/cmocka-populate-stamp/cmocka-populate-build.rule
+C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-subbuild/cmocka-populate-prefix/src/cmocka-populate-stamp/cmocka-populate-test.rule

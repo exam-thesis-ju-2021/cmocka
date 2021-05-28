@@ -1,18 +1,14 @@
 {
-	"archive" : 
-	{
-		"commandFragments" : 
-		[
-			{
-				"fragment" : "/machine:x64",
-				"role" : "flags"
-			}
-		]
-	},
 	"artifacts" : 
 	[
 		{
-			"path" : "_deps/cmocka-build/src/cmocka-static.lib"
+			"path" : "_deps/cmocka-build/src/cmocka.dll"
+		},
+		{
+			"path" : "_deps/cmocka-build/src/cmocka.lib"
+		},
+		{
+			"path" : "_deps/cmocka-build/src/cmocka.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -37,25 +33,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 87,
+				"line" : 34,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 116,
+				"line" : 75,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 96,
+				"line" : 44,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 89,
+				"line" : 36,
 				"parent" : 0
 			}
 		]
@@ -89,21 +85,27 @@
 					"fragment" : "-DHAVE_CONFIG_H"
 				}
 			],
+			"defines" : 
+			[
+				{
+					"define" : "cmocka_EXPORTS"
+				}
+			],
 			"includes" : 
 			[
 				{
-					"path" : "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-build/src"
+					"path" : "C:/Users/Warcaith/Documents/workspace/thesis/cmocka/out/build/x64-Debug/_deps/cmocka-build/src"
 				},
 				{
-					"path" : "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-src/src"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-build"
+					"path" : "C:/Users/Warcaith/Documents/workspace/thesis/cmocka/out/build/x64-Debug/_deps/cmocka-src/src"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-src/include"
+					"path" : "C:/Users/Warcaith/Documents/workspace/thesis/cmocka/out/build/x64-Debug/_deps/cmocka-build"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/Warcaith/Documents/workspace/thesis/cmocka/out/build/x64-Debug/_deps/cmocka-src/include"
 				}
 			],
 			"language" : "C",
@@ -113,7 +115,7 @@
 			]
 		}
 	],
-	"id" : "cmocka-static::@18a7a5e03b12bd613a1f",
+	"id" : "cmocka::@18a7a5e03b12bd613a1f",
 	"install" : 
 	{
 		"destinations" : 
@@ -121,15 +123,34 @@
 			{
 				"backtrace" : 2,
 				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "bin"
 			}
 		],
 		"prefix" : 
 		{
-			"path" : "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/install/x64-Debug"
+			"path" : "C:/Users/Warcaith/Documents/workspace/thesis/cmocka/out/install/x64-Debug"
 		}
 	},
-	"name" : "cmocka-static",
-	"nameOnDisk" : "cmocka-static.lib",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /DEF:C:\\Users\\Warcaith\\Documents\\workspace\\thesis\\cmocka\\out\\build\\x64-Debug\\_deps\\cmocka-src\\src\\cmocka.def",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "cmocka",
+	"nameOnDisk" : "cmocka.dll",
 	"paths" : 
 	{
 		"build" : "_deps/cmocka-build/src",
@@ -160,5 +181,5 @@
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "STATIC_LIBRARY"
+	"type" : "SHARED_LIBRARY"
 }

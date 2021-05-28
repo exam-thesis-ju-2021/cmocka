@@ -9,8 +9,8 @@
 #define LIBDIR "lib"
 #define PLUGINDIR "-0"
 /* #undef SYSCONFDIR */
-#define BINARYDIR "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug"
-#define SOURCEDIR "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka"
+#define BINARYDIR "C:/Users/Warcaith/Documents/workspace/thesis/cmocka/out/build/x64-Debug"
+#define SOURCEDIR "C:/Users/Warcaith/Documents/workspace/thesis/cmocka"
 
 /************************** HEADER FILES *************************/
 

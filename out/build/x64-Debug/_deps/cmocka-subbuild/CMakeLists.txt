@@ -12,8 +12,8 @@ project(cmocka-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(cmocka-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://git.cryptomilk.org/projects/cmocka.git" "GIT_TAG" "cmocka-1.1.5" "GIT_SHALLOW" "1"
-                    SOURCE_DIR          "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-src"
-                    BINARY_DIR          "C:/Users/Jonatan/Documents/skola/Exjobb/cmocka_git/cmocka/out/build/x64-Debug/_deps/cmocka-build"
+                    SOURCE_DIR          "C:/Users/Warcaith/Documents/workspace/thesis/cmocka/out/build/x64-Debug/_deps/cmocka-src"
+                    BINARY_DIR          "C:/Users/Warcaith/Documents/workspace/thesis/cmocka/out/build/x64-Debug/_deps/cmocka-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

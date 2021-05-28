@@ -32,7 +32,20 @@ add_library(lib src/hardware.c
 			src/peripherals/power_of_two.c
 			src/peripherals/square_root.c)
 
-add_executable(CMockaExample "tests.c")
+add_executable(CMockaExample 
+	"tests.c"  
+	"tests/test_assertions.c" 
+	"tests/test_assertions.h" 
+	"test_interface.h" 
+	"test_interface.c" 
+	"tests/test_extensibility.h" 
+	"tests/test_extensibility.c" 
+	"tests/test_fixtures.h" 
+	"tests/test_fixtures.c" 
+	"tests/test_mocking.c" 
+	"mocks/mock_module_a.h" 
+	"mocks/mock_module_a.c")
+
 target_compile_features(CMockaExample PRIVATE c_std_99)
 target_link_libraries(CMockaExample PRIVATE cmocka-static lib)
 

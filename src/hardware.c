@@ -3,7 +3,6 @@
 
 void hw_init()
 {
-	hw_reset();
 	hardware.states = malloc(sizeof(PinState) * 8);
 	hardware.peripherals = malloc(sizeof(Peripheral) * 8);
 
